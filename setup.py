@@ -4,7 +4,7 @@ from setuptools import setup, Extension
 from numpy.distutils.misc_util import get_numpy_include_dirs
 
 setup(
-        name            = 'chains_addiction',
+        name            = 'chainsaddiction',
         version         = '0.1',
         description     = 'Discrete time, finit state space, stationary Hidden Markov Model.',
         install_requires = ['numpy>=1.15.0'],
