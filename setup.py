@@ -11,7 +11,7 @@ setup(
         include_dirs    = get_numpy_include_dirs(),
         ext_modules     =   [
                                 Extension(
-                                    'chains_addiction',
+                                    'chainsaddiction',
                                     sources     = [ 'hmm/stats.c',
                                                     'hmm/fwbw.c',
                                                     'hmm/em.c',
